@@ -35,7 +35,7 @@ const Header = () => {
       if (!token) return;
 
       const response = await axios.get(`${SERVER_URL}/api/auth/profile`, {
-        headers: { Authorization: token }
+        headers: { Authorization: `Bearer ${token}` }
       });
       setUser(response.data);
     } catch (error) {

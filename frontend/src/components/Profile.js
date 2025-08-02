@@ -21,7 +21,7 @@ const Profile = () => {
       setLoading(true);
       const token = localStorage.getItem('token');
       const response = await axios.get(`${SERVER_URL}/api/auth/profile`, {
-        headers: { Authorization: token }
+        headers: { Authorization: `Bearer ${token}` }
       });
       setUser(response.data);
     } catch (error) {
@@ -47,7 +47,7 @@ const Profile = () => {
         formData,
         {
           headers: {
-            'Authorization': token,
+            'Authorization': `Bearer ${token}`,
             'Content-Type': 'multipart/form-data'
           }
         }

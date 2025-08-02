@@ -23,7 +23,7 @@ const Login = () => {
       });
       
       if (res.data && res.data.token) {
-        localStorage.setItem('token', `Bearer ${res.data.token}`);
+        localStorage.setItem('token', res.data.token);
         localStorage.setItem('userRole', res.data.role);
         login(res.data.token, res.data.role);
         // Navigate based on role
