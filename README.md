@@ -150,19 +150,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Asen Chirantha**
-- Email: [your-email@example.com]
-- LinkedIn: [Your LinkedIn Profile]
-- Portfolio: [Your Portfolio Website]
+- Email: asenchirantha@gmail.com
+- LinkedIn: https://www.linkedin.com/in/asenchirantha/
+- Portfolio: 
 
 ## 🙏 Acknowledgments
 
 - Built as part of BIT(Hons) Degree Individual Project
-- Esoft Metro Campus
+- ESOFT UNI, Colombo
 - Thanks to all contributors and supporters
 
 ## 📞 Support
 
-For support, email [your-email@example.com] or create an issue in this repository.
+For support, email asenchirantha@gmail.com or create an issue in this repository.
 
 ---
 
