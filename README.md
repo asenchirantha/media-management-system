@@ -1,6 +1,7 @@
 # 🎬 Media Management System
 
 A comprehensive media management platform built with React.js and Node.js, designed for educational institutions to manage events, live streams, and media content.
+
 ![Headingbanner](frontend/src/components/ui/images/BannerDreamio.jpg)
 
 ## ✨ Features
